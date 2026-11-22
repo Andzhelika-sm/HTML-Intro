@@ -1,3 +1,4 @@
+console.log("Hey");
 // Step 1: Select HTML elements
 
 const mainHeading = document.querySelector("h1");
@@ -31,5 +32,4 @@ function highlightMenu() {
   highlightDescription();
   changeButtonColor();
 }
-
 button.addEventListener("click", highlightMenu);
